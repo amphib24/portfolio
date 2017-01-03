@@ -1,0 +1,26 @@
+#main {
+  background: url("images/trees-thomas-griesbeck");
+
+}
+body{
+  background-color: #EBE9E8;
+}
+#header{
+  width: 100%;
+  background-color: #CB563D;
+  text-align: center;
+}
+.nav ul{
+  list-style: none;
+}
+/*////////////////////////homepage//////////////////////*/
+
+#selfie{
+  position: absolute;
+  border-radius: 6px;
+}
+#indexp{
+  position: absolute;
+  width: 60%;
+  left: 375px;
+}
