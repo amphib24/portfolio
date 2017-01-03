@@ -13,8 +13,8 @@
   background-position: center;
 }
 /*//////////////////////start page///////////////////*/
-/*#clicker{
-  position: fixed;
+/*button{
+  position: absolute;;
   text-align: center;
   width: 100px;
   height: 45px;
