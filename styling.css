@@ -1,0 +1,56 @@
+.mainimg {
+  z-index: -999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/mountains-emily-morter.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.5;
+  background-position: center;
+}
+/*//////////////////////start page///////////////////*/
+#main h1{
+  text-align: center;
+}
+#main h1 a{
+  text-decoration: none;
+  color: #585554;
+}
+/*///////////////////////universal header///////////*/
+#header{
+  width: 100%;
+  background-color: #d3d3d3;
+  text-align: center;
+  opacity: .4;
+}
+.nav ul{
+  list-style: none;
+}
+/*////////////////////////homepage//////////////////////*/
+
+#selfie{
+  position: absolute;
+  border-radius: 6px;
+}
+#indexp{
+  position: absolute;
+  width: 60%;
+  left: 375px;
+}
+#gallery{
+  position: absolute;
+  display: inline-block;;
+  top: 400px;
+  left:400px;
+}
+#gallery li{
+  list-style: none;
+  display: inline;
+}
+#gallery p{
+  text-align: center;
+}
