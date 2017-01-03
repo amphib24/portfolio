@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.9;
   background-position: center;
 }
 /*//////////////////////start page///////////////////*/
@@ -23,8 +23,9 @@
 /*///////////////////////universal header///////////*/
 #header{
   width: 100%;
-  background-color: #CB563D;
+  background-color: #d3d3d3;
   text-align: center;
+  opacity: .4;
 }
 .nav ul{
   list-style: none;
@@ -44,7 +45,7 @@
   position: absolute;
   display: inline-block;;
   top: 400px;
-  left:100px;
+  left:400px;
 }
 #gallery li{
   list-style: none;
