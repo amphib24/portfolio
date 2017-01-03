@@ -12,6 +12,7 @@
   opacity: 0.6;
   background-position: center;
 }
+/*//////////////////////start page///////////////////*/
 #main h1{
   text-align: center;
 }
@@ -19,6 +20,7 @@
   text-decoration: none;
   color: #585554;
 }
+/*///////////////////////universal header///////////*/
 #header{
   width: 100%;
   background-color: #CB563D;
@@ -37,4 +39,17 @@
   position: absolute;
   width: 60%;
   left: 375px;
+}
+#gallery{
+  position: absolute;
+  display: inline-block;;
+  top: 400px;
+  left:100px;
+}
+#gallery li{
+  list-style: none;
+  display: inline;
+}
+#gallery p{
+  text-align: center;
 }
