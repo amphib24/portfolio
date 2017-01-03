@@ -1,9 +1,23 @@
-#main {
-  background: url("images/trees-thomas-griesbeck");
-
+.mainimg {
+  z-index: -999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/mountains-emily-morter.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.6;
+  background-position: center;
 }
-body{
-  background-color: #EBE9E8;
+#main h1{
+  text-align: center;
+}
+#main h1 a{
+  text-decoration: none;
+  color: #585554;
 }
 #header{
   width: 100%;
