@@ -13,13 +13,16 @@
   background-position: center;
 }
 /*//////////////////////start page///////////////////*/
-#main h1{
+/*#clicker{
+  position: fixed;
   text-align: center;
-}
-#main h1 a{
-  text-decoration: none;
-  color: #585554;
-}
+  width: 100px;
+  height: 45px;
+  top: 50%;
+  left: 50%;
+  border-radius: 6px;
+  font-size: 25px;
+}*/
 /*///////////////////////universal header///////////*/
 #header{
   width: 100%;
@@ -42,7 +45,7 @@
   left: 375px;
 }
 #gallery{
-  position: relative;
+  position: absolute;
   display: inline;
   top: 400px;
   left:400px;
