@@ -42,14 +42,15 @@
   left: 375px;
 }
 #gallery{
-  position: absolute;
-  display: inline-block;;
+  position: relative;
+  display: inline;
   top: 400px;
   left:400px;
 }
 #gallery li{
+  position: relative;
   list-style: none;
-  display: inline;
+  display: inline-block;
 }
 #gallery p{
   text-align: center;
