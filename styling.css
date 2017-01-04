@@ -87,3 +87,9 @@ img{
 #gallery p{
   text-align: center;
 }
+@media screen and (max-width: 600px){
+.nav ul li{float: none;}
+#indexp{
+float: left;
+}
+}
