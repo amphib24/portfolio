@@ -1,15 +1,29 @@
 var portfolio = [];
 
-function Projects(name){
-  this.name = name;
-  this.image = 'images/' + name + '.jpg';
+function Project(options){
   this.title = options.title;
-  this.createdOn = options.createdOn;
+  this.imageUrl = options.imageUrl
+  this.projectPage = options.projectPage
+  this.dateCreated = options.dateCreated;
 }
 
-Projects.prototype.toHtml = function(){
-  var $newProject = $('#gallery').clone();
-  $newProject.find('p').text(this.title);
-  $newProject.find('a').attr('href',this.image);
-  $newProject.find().(this.date)
-}
+Project.prototype.toHtml = function(){
+  var $newProject = $('ul.galleryUl').clone();
+  $newProject.find('h1').text(this.title);
+  $newProject.find('img').attr('src',this.imageUrl);
+  $newProject.find('a').attr('href', this.projectPage)
+  $newProject.find('time[pubdate]').attr('date',this.dateCreated)
+  $newProject.find('time').text('around' + parseInt((new Date() - new Date(this.dateCreated))/60/60/24/1000) + 'days ago');
+  $newProject.removeClass('galleryUl')
+
+  return $newProject;
+};
+projectsArray.sort(function(currentProject, nextProject) {
+  return (new Date(nextProject.dateCreated)) - (new Date(currentProject.dateCreated));
+});
+projectsArray.forEach(function(element) {
+  portfolio.push(new Project(element));
+});
+portfolio.forEach(function(section) {
+  $('#gallery').append(section.toHtml());
+});
