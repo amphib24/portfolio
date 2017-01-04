@@ -1,3 +1,6 @@
+body{
+  margin: 0;
+}
 .mainimg {
   z-index: -999;
   position: fixed;
@@ -13,28 +16,52 @@
   background-position: center;
 }
 /*//////////////////////start page///////////////////*/
-#main h1{
+button{
+  position: absolute;
   text-align: center;
-}
-#main h1 a{
-  text-decoration: none;
-  color: #585554;
+  width: 100px;
+  height: 45px;
+  top: 50%;
+  left: 50%;
+  border-radius: 6px;
+  font-size: 25px;
 }
 /*///////////////////////universal header///////////*/
 #header{
   width: 100%;
-  background-color: #d3d3d3;
   text-align: center;
-  opacity: .4;
 }
 .nav ul{
-  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E8E8EE;
+}
+.nav ul li {
+  float: left;
+}
+.nav ul li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding:14px 16px;
+  text-decoration: none;
+}
+.nav ul li a:hover:not(.active){
+  background-color: #ADD8E6;
+}
+.nav ul li a.active{background-color: #ADD8E6;}
+@media screen and (max-width: 600px){
+.nav ul li{float: none;}
 }
 /*////////////////////////homepage//////////////////////*/
 
 #selfie{
   position: absolute;
-  border-radius: 6px;
+  border-radius: 35px;
+  max-width: 100%;
+  height: auto;
 }
 #indexp{
   position: absolute;
@@ -42,16 +69,27 @@
   left: 375px;
 }
 #gallery{
-  position: relative;
-  display: inline;
+  position: absolute;
+  display: inline-block;;
   top: 400px;
   left:400px;
 }
 #gallery li{
   position: relative;
   list-style: none;
-  display: inline-block;
+  display: inline;
+
+}
+img{
+  border-radius: 150px;
+  border: 4px solid #ADD8E6;
 }
 #gallery p{
   text-align: center;
+}
+@media screen and (max-width: 600px){
+.nav ul li{float: none;}
+#indexp{
+float: left;
+}
 }
