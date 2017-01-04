@@ -68,24 +68,23 @@ button{
   width: 60%;
   left: 375px;
 }
-#gallery{
-  position: absolute;
-  display: inline-block;;
+#gallery ul{
+  position: relative;
+  display: inline-block;
   top: 400px;
-  left:400px;
+}
+#gallery h1{
+  position: relative;
 }
 #gallery li{
   position: relative;
   list-style: none;
-  display: inline;
+  display: inline-block;
 
 }
 img{
   border-radius: 150px;
   border: 4px solid #ADD8E6;
-}
-#gallery p{
-  text-align: center;
 }
 @media screen and (max-width: 600px){
 .nav ul li{float: none;}

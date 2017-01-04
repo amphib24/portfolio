@@ -13,7 +13,7 @@ Project.prototype.toHtml = function(){
   $newProject.find('img').attr('src',this.imageUrl);
   $newProject.find('a').attr('href', this.projectPage)
   $newProject.find('time[pubdate]').attr('date',this.dateCreated)
-  $newProject.find('time').text('around' + parseInt((new Date() - new Date(this.dateCreated))/60/60/24/1000) + 'days ago');
+  $newProject.find('time').text(' completed ' + parseInt((new Date() - new Date(this.dateCreated))/60/60/24/1000) + ' days ago');
   $newProject.removeClass('galleryUl')
 
   return $newProject;
