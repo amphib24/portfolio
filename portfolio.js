@@ -9,3 +9,9 @@ $(document).ready(function(){
     $(location).attr('href', 'main.html');
   }
 });
+
+$('.imageClicker').click(function(event){
+  event.preventDefault();
+  $('a').open('href');
+
+});

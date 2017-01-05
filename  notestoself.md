@@ -1,0 +1,5 @@
+-create event handler for project links.
+-create event handler for nav.
+-figure out styling for project pics.
+-figure out layout in mobile.
+-make page pop.
