@@ -64,8 +64,9 @@ button{
   height: auto;
 }
 #indexp{
-  position: absolute;
-  width: 60%;
+  position: relative;
+  width: 400px;
+  height: auto;
   left: 375px;
 }
 #gallery ul{
@@ -89,6 +90,13 @@ img{
 @media screen and (max-width: 600px){
 .nav ul li{float: none;}
 #indexp{
-float: left;
+position: absolute;
+left:2%;
+top: 65%;
+margin-bottom: 10%;
+margin-top: 10%;
+}
+#gallery{
+  margin-top:25%;
 }
 }
