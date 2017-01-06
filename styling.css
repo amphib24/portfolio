@@ -51,10 +51,10 @@ button{
 .nav ul li a:hover:not(.active){
   background-color: #ADD8E6;
 }
-.nav ul li a.active{background-color: #ADD8E6;}
+/*.nav ul li a.active{background-color: #ADD8E6;}
 @media screen and (max-width: 600px){
 .nav ul li{float: none;}
-}
+}*/
 /*////////////////////////homepage//////////////////////*/
 
 #selfie{
@@ -70,10 +70,15 @@ button{
   height: auto;
   left: 375px;
 }
+/*#gallery{
+  text-align: center;
+  width:700px;
+}
+
 #gallery ul{
   position: relative;
   display: inline-block;
-  top: 400px;
+  top: 10%;
 }
 #gallery h1{
   position: relative;
@@ -81,12 +86,24 @@ button{
 #gallery li{
   position: relative;
   list-style: none;
-  display: inline-block;
+  display: inline-block;*/
+
 
 }
 img{
   border-radius: 150px;
   border: 4px solid #ADD8E6;
+}
+.title {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
 }
 @media screen and (max-width: 600px){
 .nav ul li{float: none;}
@@ -96,8 +113,4 @@ left:2%;
 top: 65%;
 margin-bottom: 10%;
 margin-top: 10%;
-}
-#gallery{
-  margin-top:25%;
-}
 }

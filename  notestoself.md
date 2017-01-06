@@ -1,4 +1,4 @@
--create event handler for project links.
+-create cool slider for portfolio.
 -create event handler for nav.
 -figure out styling for project pics.
 -figure out layout in mobile.

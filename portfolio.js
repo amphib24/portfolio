@@ -9,9 +9,8 @@ $(document).ready(function(){
     $(location).attr('href', 'main.html');
   }
 
-
 });
-$('#gallery a').click(function(){
+$('.gallery a').click(function(){
   event.preventDefault();
-  window.open($(this).attr('href'),'story book');
+  window.open($(this).attr('href'));
 });
