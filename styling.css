@@ -72,7 +72,7 @@ button{
   margin: 0;
 }
 /*///////slider////////*/
-.placeholder{
+.gallery{
 margin: 0 auto;
 width:80%;
 background-color: lightgrey;
@@ -84,7 +84,7 @@ min-height: 400px;
   height: 300px;
   position:relative;
 }
-.placeholder ul {
+.gallery ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -93,7 +93,7 @@ min-height: 400px;
   height: 100%;
   top: 0;
 }
-.placeholder li {
+.gallery li {
   padding: 0;
   margin: 0;
   width: 33.333333%;
@@ -103,9 +103,9 @@ min-height: 400px;
   top: 0;
   bottom: 0;
 }
-.placeholder li img {
+.gallery li img {
   border: none;
-  /*width: 100%;*/
+  width: 100%;
   min-height:100%;
 }
 /*////////prev/next button////////*/
