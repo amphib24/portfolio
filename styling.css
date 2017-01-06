@@ -1,5 +1,5 @@
 body{
-  margin: 0;
+  margin: 0 auto;
 }
 .mainimg {
   z-index: -999;
@@ -69,13 +69,18 @@ button{
   width: 400px;
   height: auto;
   left: 375px;
+  margin: 0;
 }
-/*#gallery{
+.gallery{
+  width: 385px;;
+  height: auto;
+}
+#gallery{
   text-align: center;
   width:700px;
 }
 
-#gallery ul{
+.galleryUl{
   position: relative;
   display: inline-block;
   top: 10%;
@@ -86,9 +91,7 @@ button{
 #gallery li{
   position: relative;
   list-style: none;
-  display: inline-block;*/
-
-
+  display: inline-block;
 }
 img{
   border-radius: 150px;

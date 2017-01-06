@@ -8,7 +8,6 @@ $(document).ready(function(){
   function redirect() {
     $(location).attr('href', 'main.html');
   }
-
 });
 $('.gallery a').click(function(){
   event.preventDefault();
