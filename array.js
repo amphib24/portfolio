@@ -1,4 +1,4 @@
-var projectsArray =[
+projectsArray =[
   {
     title: 'Salmon Cookies',
     imageUrl:  'images/salmoncookieimg.png',

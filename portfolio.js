@@ -9,9 +9,7 @@ $(document).ready(function(){
     $(location).attr('href', 'main.html');
   }
 });
-
-$('.imageClicker').click(function(event){
+$('.gallery a').click(function(){
   event.preventDefault();
-  $('a').open('href');
-
+  window.open($(this).attr('href'));
 });
