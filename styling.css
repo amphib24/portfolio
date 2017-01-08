@@ -72,9 +72,6 @@ button{
   margin: 0;
 }
 /*///////slider////////*/
-.placeholder{
-
-}
 .gallery{
   margin: 0 auto;
   width:60%;
@@ -99,7 +96,7 @@ button{
   border: solid 2px blue;
 }
 .gallery ul li {
-  padding: 0;
+  padding-top: 75px;
   margin: 0;
   width: 33.333333%;
   height: 100%;
@@ -111,11 +108,14 @@ button{
 }
 .gallery li img {
   border: none;
-  width: 60%;
-  min-height:100%;
+  width: 75%;
+  height:100%;
+}
+.gallerytop{
+  margin:0 auto;
 }
 /*////////prev/next button////////*/
-.placeholder button{
+.gallery button{
   position:relative;
   display: inline-block;
   box-sizing: border-box;
@@ -129,11 +129,13 @@ button{
   margin: 0;
   padding: 0;
   text-align: center;
+  opacity: .2
 }
  button.previous {
   left: 0;
 }
  button.next{
+
   right: 0;
 }
 /*.placeholder button:hover, .placeholder:active{
