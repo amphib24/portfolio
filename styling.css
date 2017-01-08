@@ -72,28 +72,33 @@ button{
   margin: 0;
 }
 /*///////slider////////*/
-.gallery{
-margin: 0 auto;
-width:80%;
-background-color: lightgrey;
-min-height: 400px;
-}
 .placeholder{
-  width:100%;
+
+}
+.gallery{
+  margin: 0 auto;
+  width:60%;
+  background-color: ;
+  /*min-height: 400px;
+  border: solid 2px pink;
+  width:60%;*/
   overflow: hidden;
-  height: 300px;
-  position:relative;
+  height: 500px;
+  position: absolute;
+  margin-left: 250px;
+
+  border: solid 2px red;
 }
 .gallery ul {
   margin: 0;
-  padding: 0;
   list-style: none;
   position: absolute;
   width: 300%;
   height: 100%;
   top: 0;
+  border: solid 2px blue;
 }
-.gallery li {
+.gallery ul li {
   padding: 0;
   margin: 0;
   width: 33.333333%;
@@ -102,39 +107,38 @@ min-height: 400px;
   position: absolute;
   top: 0;
   bottom: 0;
+  border: solid 2px green;
 }
 .gallery li img {
   border: none;
-  width: 100%;
+  width: 60%;
   min-height:100%;
 }
 /*////////prev/next button////////*/
-.gallery button{
-  position: absolute;
-  display: block;
+.placeholder button{
+  position:relative;
+  display: inline-block;
   box-sizing: border-box;
   border: none;
   outline: none;
   top: 0;
   bottom: 0;
   width: 20%;
-  background-color: rgba(0,0,0,0.3);
+  background-color: #000000;
   color: #fff;
   margin: 0;
   padding: 0;
   text-align: center;
-  opacity: 0;
-  z-index: 2;
 }
-.gallery button.previous {
+ button.previous {
   left: 0;
 }
-.gallery button.next{
+ button.next{
   right: 0;
 }
-.gallery button:hover, .gallery button:active{
+/*.placeholder button:hover, .placeholder:active{
   opacity: 1.0;
-}
+}*/
 /*#gallery{
   text-align: center;
   width:700px;
