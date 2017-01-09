@@ -9,21 +9,26 @@
 
    <script id="project-template" type="text/x-handlers-template">
    <div id="gallery">
-   <div id="slider">
-   <div class="slide">
-<button class="previous">prev</button>
-	<div class="slide-copy">
-     <time class='gallerytop' pubdate datetime="{{dateCreated}}">Created on:{{dateCreated}}</time>
-     <h2 class="title">{{title}}
-     </h2>
-  </div>
-   <a href="{{projectPage}}">
-   <img src="{{imageUrl}}"/></img>
-   <a/>
 
-   <button class="next">next</button>
- </div>
- </div>
+
+   <div id="slider">
+
+  <div class="slide">
+
+	 <div class="slide-copy">
+
+     <time class='gallerytop' pubdate datetime="{{dateCreated}}">Created on:{{dateCreated}}</time>
+     <h2 class="title">{{title}}>
+     </h2>
+
+   </div>
+    <a href="{{projectPage}}">
+    <img src="{{imageUrl}}"/></img>
+    <a/>
+   </div>
+
+  </div>
+
  </div>
    </script>
     <title></title>
@@ -51,7 +56,8 @@
 
 
 <div class="placeholder">
-
+<button id="prev">prev</button>
+<button id="next">next</button>
 
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>

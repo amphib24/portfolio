@@ -75,23 +75,27 @@ button{
 }
 /*///////slider////////*/
 
-#gallery {
+.placeholder{
 	width: 980px;
+  height:375px;
 	margin: 40px auto;
+  position: absolute;
+  display: inline-block;
 	overflow: hidden;
   padding: 3px;
   border: solid 6px purple;
 }
 
-#slider {
+#gallery {
 	width: 940px;
 	height: 350px;
-	position: relative;
+  display: inline-block;
+	position: absolute;
 	overflow: hidden;
 	float: left;
 	padding: 3px;
 	border:red solid 2px;
-	border-radius:5px;
+
 }
 
 #slider img{
@@ -100,7 +104,7 @@ button{
 }
 
 .slide{
-	position:absolute;
+	position: absolute;
   border: solid 3px green;
 }
 
@@ -108,12 +112,29 @@ button{
 	position:absolute;
 	bottom:0;
 	left:0;
+  width: 15%;
+  height: auto;
 	padding:20px;
 	background:#7f7f7f;
 	background: rgba(0,0,0,0.5);
   border: solid 4px blue;
 }
 
+#prev, #next{
+	float:left;
+	margin-top:130px;
+	cursor:pointer;
+	position: absolute;
+	z-index:100;
+}
+
+button#prev{
+	margin-right:-45px;
+}
+
+button#next{
+	margin-left:-45px;
+}
 /*.gallery ul {
   margin: 0;
   list-style: none;
@@ -157,15 +178,13 @@ button{
 }
 
 .title {
-  width: 15%;
-  left: 45%;
-  margin-left: 45%;
-  bottom: 0;
+  width: 25%;
+  bottom: 100%;
   background: rgba(0,0,0,.5);
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0,0,0,.3);
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 24px;
+
 }
 @media screen and (max-width: 600px){
 .nav ul li{float: none;}
