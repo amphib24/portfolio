@@ -11,16 +11,20 @@ $(function imgClick() {
 .css({width:(100 / slide_count) + '%'});
   });
 
-  $('.previous').click(function() {
+  $('.previous').click(function(event) {
+    event.preventDefault();
+    console.log('prev clicked');
     slide(slide_index - 1);
   });
 
-  $('.next').click(function() {
+  $('.next').click(function(event) {
+    event.preventDefault();
+    console.log('next clicked');
     slide(slide_index + 1);
   });
 
   function slide(new_slide_index) {
-    if (new_slide_index < 0 || new_slide_index >= slide_count) return;
+    if (new_slide_index < 0 || new_slide_index >= slide_count) return ;
     var margin_left_pc = (new_slide_index * (-100)) + '%';
     ul.animate({'margin-left': margin_left_pc},4000,imgClick())
     slide_index = new_slide_index}
