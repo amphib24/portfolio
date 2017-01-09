@@ -76,9 +76,10 @@ button{
 /*///////slider////////*/
 
 #gallery {
-	width:980px;
-	margin:40px auto;
+	width: 980px;
+	margin: 40px auto;
 	overflow: hidden;
+  padding: 3px;
   border: solid 6px purple;
 }
 
@@ -100,6 +101,7 @@ button{
 
 .slide{
 	position:absolute;
+  border: solid 3px green;
 }
 
 .slide-copy{
@@ -107,8 +109,9 @@ button{
 	bottom:0;
 	left:0;
 	padding:20px;
-	background:7f7f7f;
+	background:#7f7f7f;
 	background: rgba(0,0,0,0.5);
+  border: solid 4px blue;
 }
 
 /*.gallery ul {
@@ -173,7 +176,7 @@ top: 85%;
 margin-bottom: 10%;
 margin-top: 15%;
 }
-.gallery{
+#gallery{
   position: absolute;
   margin-left: 2%;
   top:160%;
