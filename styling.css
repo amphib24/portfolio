@@ -75,7 +75,7 @@ button{
 }
 /*///////slider////////*/
 
-.placeholder{
+#gallery{
 	width: 980px;
   height:375px;
 	margin: 40px auto;
@@ -86,7 +86,7 @@ button{
   border: solid 6px purple;
 }
 
-#gallery {
+#slider {
 	width: 940px;
 	height: 350px;
   display: inline-block;
